@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+class IfElseOne {
+    public static void main(String[] args) {
+        Scanner month = new Scanner (System.in);
+        System.out.print("Укажите текущий месяц от 1 до 12 : ");
+        int x = month.nextInt();
+        String monthName;
+        String season;
+        if (x == 12 || x == 1 || x == 2) season = "зиме";
+        else if (x == 3 || x == 4 || x == 5) season = "весне";
+        else if (x == 6 || x == 7 || x == 8) season = "лету";
+        else if  (x == 9 || x == 10 || x == 11) season = "осени";
+        else season = "вымышленным месяцам";
+        if (x == 1 ) monthName = "январь";
+        else if (x == 2) monthName = "февраль";
+        else if (x == 3) monthName = "март";
+        else if (x == 4) monthName = "апрель";
+        else if (x == 5) monthName = "май";
+        else if (x == 6) monthName = "июнь";
+        else if (x == 7) monthName = "июль";
+        else if (x == 8) monthName = "август";
+        else if (x == 9) monthName = "сентябрь";
+        else if (x == 10) monthName = "октябрь";
+        else if (x == 11) monthName = "ноябрь";
+        else if (x == 12) monthName = "декабрь";
+        else monthName = String.valueOf(x);
+        System.out.println("Указаный месяц " + monthName + " относится к " + season + ".");
+    }
+}
