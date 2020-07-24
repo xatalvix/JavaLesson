@@ -1,0 +1,19 @@
+/*
+*public class HelloWorld {
+*    public static main(String[] args) {
+*    }
+*}
+*/
+
+public class lesson_2 {
+    public static main(String[] args) {
+        int myInt; // задекларировали (объявили) тип переменной и её имя.
+        myInt = 557; // инициализировали переменную присвоив значение(константу).
+        short myShort = 3266; // объявили тип переменной и её имя, инициализировали переменную присвоив значение.
+        long myLong = 26246246;
+        double myDouble = 235.35;
+        float myFloat = 2362.4f;
+        System.out.println(myInt);
+        System.out.println(myShort);
+    }
+}
