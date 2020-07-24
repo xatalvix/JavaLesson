@@ -5,7 +5,7 @@
 *}
 */
 
-public class HelloWorld {
+public class lesson_1 {
     public static main(String[] args) {
         System.out.println("Hello world!");
     }
