@@ -1,0 +1,10 @@
+public class lesson_9_2 {
+    public static void main(String[] args) {
+        for(int i = o; i<=15; i++) {
+            if(i%2==0) {
+                continue;
+            }
+            System.out.println("Это нечетное число " + i);
+        }
+    }
+}
